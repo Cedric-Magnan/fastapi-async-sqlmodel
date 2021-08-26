@@ -17,5 +17,6 @@ poetry install
 ## Local Deployment
 
 ```sh
+export SQLITE_FILE_DB_PATH="/path/to/your/sqlite/db/file.db"
 uvicorn app:app
 ```
