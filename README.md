@@ -4,7 +4,7 @@ This repository is a simple tutorial to easily setup a FastAPI application with 
 
 ## Requirements
 
-- Poetry
+- [Poetry](https://python-poetry.org/docs/#installation)
 
 ## Installation
 
