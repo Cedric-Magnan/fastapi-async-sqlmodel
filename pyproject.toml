@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-async-sqlmodel"
+version = "0.1.0"
+description = ""
+authors = ["Cedric-Magnan <cedric.magnan@artefact.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+SQLAlchemy = "^1.4.23"
+sqlmodel = "^0.0.4"
+aiosqlite = "^0.17.0"
+fastapi = "^0.68.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
