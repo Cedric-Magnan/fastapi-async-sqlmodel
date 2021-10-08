@@ -4,6 +4,7 @@ metadata:
   name: fastapi-async-sqlmodel
   annotations:
     github.com/project-slug: Cedric-Magnan/fastapi-async-sqlmodel
+    backstage.io/techdocs-ref: .
   tags:
     - python
 spec:
