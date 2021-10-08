@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: fastapi-async-sqlmodel
   annotations:
-    github.com/project-slug: exampleOrg/fastapi-async-sqlmodel
+    github.com/project-slug: Cedric-Magnan/fastapi-async-sqlmodel
   tags:
     - python
 spec:
