@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fastapi-async-sqlmodel
+  annotations:
+    github.com/project-slug: exampleOrg/fastapi-async-sqlmodel
+  tags:
+    - python
+spec:
+  type: service
+  lifecycle: production
