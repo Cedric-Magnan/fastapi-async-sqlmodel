@@ -9,7 +9,9 @@ from sqlalchemy.ext.asyncio import create_async_engine
 sqlite_file_name = os.environ["SQLITE_FILE_DB_PATH"]
 sqlite_url = f"sqlite+aiosqlite:///{sqlite_file_name}"
 connect_args = {"check_same_thread": False}
-engine = create_async_engine(sqlite_url, future=True, echo=True, connect_args=connect_args)
+engine = create_async_engine(
+    sqlite_url, future=True, echo=True, connect_args=connect_args
+)
 
 
 class Hero(SQLModel, table=True):
