@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: spotify
   definition:
-    $text: https://api.apis.guru/v2/specs/spotify.com/v1/swagger.yaml
+    $text: https://raw.githubusercontent.com/sonallux/spotify-web-api/main/spotify-web-api-generator-open-api/spotify-web-api-openapi.yml
