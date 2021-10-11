@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: spotify
   definition:
-    $text: https://raw.githubusercontent.com/sonallux/spotify-web-api/main/spotify-web-api-generator-open-api/spotify-web-api-openapi.yml
+    $yaml: https://raw.githubusercontent.com/sonallux/spotify-web-api/main/spotify-web-api-generator-open-api/spotify-web-api-openapi.yml
