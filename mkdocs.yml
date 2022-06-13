@@ -1,8 +1,0 @@
-site_name: 'fastapi-async-sqlmodel'
-site_description: 'Main documentation for fastapi-async-sqlmodel features and platform APIs'
-
-plugins:
-  - techdocs-core
-
-nav:
-  - Overview: 'README.md'
